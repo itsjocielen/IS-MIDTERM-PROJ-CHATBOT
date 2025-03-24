@@ -2,7 +2,7 @@
   let messages = [];
   let userMessage = '';
   let isLoading = false;
-  let suggestions = ['What can you do?', 'Tell me a joke.', 'Hows the weather?', 'Give me advice.'];
+  let suggestions = ['Give me a number.'];
 
   async function sendMessage(message = userMessage) {
     if (!message.trim() || isLoading) return;
